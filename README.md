@@ -1,4 +1,4 @@
-# gowithdocker
+# Projeto gowithdocker
 Desafio Fullcycle subir uma imagem com menos de 2MB na linguagem Go.
 
 ## Descrição do desafio 
@@ -14,3 +14,21 @@ Se você perceber, essa imagem apenas realiza um print da mensagem como resultad
 Lembrando que a Go Lang possui imagens oficiais prontas, vale a pena consultar o Docker Hub.
 
 A imagem de nosso projeto Go precisa ter menos de 2MB.
+  
+## Build
+```
+docker build -t guilhermeegg/codeeducation . -f Dockerfile.prod
+```
+
+## Run
+```
+docker run guilhermeegg/codeeducation
+```
+  
+## Publicando Imagem
+```
+docker login
+```
+```
+docker push guilhermeegg/codeeducation
+```
