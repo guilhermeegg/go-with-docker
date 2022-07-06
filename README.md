@@ -1,4 +1,4 @@
-# Projeto gowithdocker
+# Projeto go-with-docker
 Desafio Fullcycle subir uma imagem com menos de 2MB na linguagem Go.
 
 ## Descrição do desafio 
